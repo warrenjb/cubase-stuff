@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<remotedescription version="1.1">
+<ctrltable name="Standard MIDI">
+<ctrl><name>Stop</name><stat>176</stat><chan>0</chan><addr>2</addr><max>127</max><flags>3</flags></ctrl>
+<ctrl><name>Play</name><stat>176</stat><chan>0</chan><addr>3</addr><max>127</max><flags>3</flags></ctrl>
+<ctrl><name>Record</name><stat>176</stat><chan>0</chan><addr>4</addr><max>127</max><flags>3</flags></ctrl>
+<ctrl><name>Loop</name><stat>176</stat><chan>0</chan><addr>6</addr><max>127</max><flags>3</flags></ctrl>
+<ctrl><name>Rewind</name><stat>176</stat><chan>0</chan><addr>0</addr><max>127</max><flags>3</flags></ctrl>
+<ctrl><name>Forward</name><stat>176</stat><chan>0</chan><addr>1</addr><max>127</max><flags>3</flags></ctrl>
+<ctrl><name>Click</name><stat>176</stat><chan>0</chan><addr>5</addr><max>127</max><flags>3</flags></ctrl>
+<ctrl><name>Read</name><stat>176</stat><chan>0</chan><addr>7</addr><max>127</max><flags>3</flags></ctrl>
+<ctrl><name>Write</name><stat>176</stat><chan>0</chan><addr>8</addr><max>127</max><flags>3</flags></ctrl>
+<ctrl><name>Enable</name><stat>176</stat><chan>0</chan><addr>12</addr><max>127</max><flags>3</flags></ctrl>
+<ctrl><name>Monitor</name><stat>176</stat><chan>0</chan><addr>11</addr><max>127</max><flags>3</flags></ctrl>
+<ctrl><name>Solo</name><stat>176</stat><chan>0</chan><addr>10</addr><max>127</max><flags>3</flags></ctrl>
+<ctrl><name>Mute</name><stat>176</stat><chan>0</chan><addr>9</addr><max>127</max><flags>3</flags></ctrl>
+<ctrl><name>Pan</name><stat>176</stat><chan>0</chan><addr>14</addr><max>127</max><flags>3</flags></ctrl>
+<ctrl><name>Volume</name><stat>176</stat><chan>0</chan><addr>13</addr><max>127</max><flags>3</flags></ctrl>
+<ctrl><name>JogL</name><stat>176</stat><chan>0</chan><addr>15</addr><max>127</max><flags>3</flags></ctrl>
+<ctrl><name>JogR</name><stat>176</stat><chan>0</chan><addr>30</addr><max>127</max><flags>3</flags></ctrl>
+<ctrl><name>Time</name><stat>176</stat><chan>0</chan><addr>23</addr><max>127</max><flags>3</flags></ctrl>
+<ctrl><name>Paused</name><stat>176</stat><chan>0</chan><addr>20</addr><max>127</max><flags>3</flags></ctrl>
+<ctrl><name>Playing</name><stat>176</stat><chan>0</chan><addr>21</addr><max>127</max><flags>3</flags></ctrl>
+<ctrl><name>Stopped</name><stat>176</stat><chan>0</chan><addr>22</addr><max>127</max><flags>3</flags></ctrl>
+<ctrl><name>Strip</name><stat>176</stat><chan>0</chan><addr>32</addr><max>127</max><flags>3</flags></ctrl>
+<ctrl><name>Gate</name><stat>176</stat><chan>0</chan><addr>24</addr><max>127</max><flags>3</flags></ctrl>
+<ctrl><name>Comp</name><stat>176</stat><chan>0</chan><addr>25</addr><max>127</max><flags>3</flags></ctrl>
+<ctrl><name>EQ</name><stat>176</stat><chan>0</chan><addr>26</addr><max>127</max><flags>3</flags></ctrl>
+<ctrl><name>Env</name><stat>176</stat><chan>0</chan><addr>27</addr><max>127</max><flags>3</flags></ctrl>
+<ctrl><name>Sat</name><stat>176</stat><chan>0</chan><addr>28</addr><max>127</max><flags>3</flags></ctrl>
+<ctrl><name>Lim</name><stat>176</stat><chan>0</chan><addr>29</addr><max>127</max><flags>3</flags></ctrl>
+<ctrl><name>Stereo/Mono</name><stat>176</stat><chan>0</chan><addr>33</addr><max>127</max><flags>3</flags></ctrl>
+<ctrl><name>Instrument</name><stat>176</stat><chan>0</chan><addr>34</addr><max>127</max><flags>3</flags></ctrl>
+<ctrl><name>Eq1</name><stat>176</stat><chan>0</chan><addr>16</addr><max>127</max><flags>3</flags></ctrl>
+<ctrl><name>Eq2</name><stat>176</stat><chan>0</chan><addr>18</addr><max>127</max><flags>3</flags></ctrl>
+<ctrl><name>Eq3</name><stat>176</stat><chan>0</chan><addr>17</addr><max>127</max><flags>3</flags></ctrl>
+<ctrl><name>Eq4</name><stat>176</stat><chan>0</chan><addr>31</addr><max>127</max><flags>3</flags></ctrl>
+</ctrltable>
+<bank name="PAP iPad">
+<entry ctrl="Stop">
+<value><device>Transport</device><chan>-1</chan><tag>4016</tag><flags>1</flags></value>
+</entry>
+<entry ctrl="Play">
+<value><device>Transport</device><chan>-1</chan><tag>4015</tag><flags>1</flags></value>
+</entry>
+<entry ctrl="Record">
+<value><device>Transport</device><chan>-1</chan><tag>4019</tag><flags>256</flags></value>
+</entry>
+<entry ctrl="Loop">
+<value><device>Transport</device><chan>-1</chan><tag>4022</tag><flags>256</flags></value>
+</entry>
+<entry ctrl="Rewind">
+<value><device>Transport</device><chan>-1</chan><tag>4018</tag><flags>256</flags></value>
+</entry>
+<entry ctrl="Time">
+</entry>
+<entry ctrl="Paused">
+</entry>
+<entry ctrl="Playing">
+</entry>
+<entry ctrl="Stopped">
+</entry>
+<entry ctrl="Strip">
+</entry>
+<entry ctrl="Gate">
+</entry>
+<entry ctrl="Comp">
+</entry>
+<entry ctrl="EQ">
+</entry>
+<entry ctrl="Env">
+</entry>
+<entry ctrl="Sat">
+</entry>
+<entry ctrl="Lim">
+</entry>
+<entry ctrl="Stereo/Mono">
+</entry>
+<entry ctrl="Instrument">
+</entry>
+<entry ctrl="Eq1">
+</entry>
+<entry ctrl="Eq2">
+</entry>
+<entry ctrl="Eq3">
+</entry>
+<entry ctrl="Eq4">
+</entry>
+</bank>
+<bank name="ftprod">
+<entry ctrl="Stop">
+<value><device>Transport</device><chan>-1</chan><tag>4016</tag><flags>1</flags></value>
+</entry>
+<entry ctrl="Play">
+<value><device>Transport</device><chan>-1</chan><tag>4015</tag><flags>1</flags></value>
+</entry>
+<entry ctrl="Record">
+<value><device>Transport</device><chan>-1</chan><tag>4019</tag><flags>1</flags></value>
+</entry>
+<entry ctrl="Loop">
+<value><device>Transport</device><chan>-1</chan><tag>4022</tag><flags>256</flags></value>
+</entry>
+<entry ctrl="Rewind">
+<value><device>Transport</device><chan>-1</chan><tag>4018</tag><flags>1</flags></value>
+</entry>
+<entry ctrl="Forward">
+<value><device>Transport</device><chan>-1</chan><tag>4017</tag><flags>1</flags></value>
+</entry>
+<entry ctrl="Click">
+<value><device>Transport</device><chan>-1</chan><tag>4099</tag><flags>256</flags></value>
+</entry>
+<entry ctrl="Read">
+<value><device>Mixer</device><chan>-2</chan><name>readEnable</name><flags>256</flags></value>
+</entry>
+<entry ctrl="Write">
+<value><device>Mixer</device><chan>-2</chan><name>writeEnable</name><flags>256</flags></value>
+</entry>
+<entry ctrl="Enable">
+<value><device>Mixer</device><chan>-2</chan><name>recordEnable</name><flags>256</flags></value>
+</entry>
+<entry ctrl="Monitor">
+<value><device>Mixer</device><chan>-2</chan><name>monitor</name><flags>256</flags></value>
+</entry>
+<entry ctrl="Solo">
+<value><device>Mixer</device><chan>-2</chan><name>solo</name><flags>256</flags></value>
+</entry>
+<entry ctrl="Mute">
+<value><device>Mixer</device><chan>-2</chan><name>mute</name><flags>256</flags></value>
+</entry>
+<entry ctrl="Pan">
+<value><device>Mixer</device><chan>-2</chan><name>panner:panX</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Volume">
+<value><device>Mixer</device><chan>-2</chan><name>volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="JogL">
+<value><device>Transport</device><chan>-1</chan><tag>4114</tag><flags>0</flags></value>
+</entry>
+<entry ctrl="JogR">
+<value><device>Transport</device><chan>-1</chan><tag>4115</tag><flags>0</flags></value>
+</entry>
+<entry ctrl="Time">
+<value><device>Transport</device><chan>-1</chan><tag>4023</tag><flags>0</flags></value>
+</entry>
+<entry ctrl="Paused">
+<value><device>MMC Master</device><chan>-1</chan><tag>4098</tag><flags>0</flags></value>
+</entry>
+<entry ctrl="Playing">
+<value><device>MMC Master</device><chan>-1</chan><tag>4097</tag><flags>0</flags></value>
+</entry>
+<entry ctrl="Stopped">
+<value><device>MMC Master</device><chan>-1</chan><tag>4096</tag><flags>0</flags></value>
+</entry>
+<entry ctrl="Strip">
+<command><category>Edit</category><action>Edit Channel Settings</action><flags>1</flags></command>
+</entry>
+<entry ctrl="Gate">
+</entry>
+<entry ctrl="Comp">
+</entry>
+<entry ctrl="EQ">
+<value><device>Mixer</device><chan>-2</chan><name>strips/slot3:param0</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Env">
+</entry>
+<entry ctrl="Sat">
+</entry>
+<entry ctrl="Lim">
+</entry>
+<entry ctrl="Stereo/Mono">
+</entry>
+<entry ctrl="Instrument">
+<command><category>Edit</category><action>Edit VST Instrument</action><flags>1</flags></command>
+</entry>
+<entry ctrl="Eq1">
+<value><device>Mixer</device><chan>-2</chan><name>strips/slot3:param11</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Eq2">
+<value><device>Mixer</device><chan>-2</chan><name>strips/slot3:param16</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Eq3">
+<value><device>Mixer</device><chan>-2</chan><name>strips/slot3:param21</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Eq4">
+<value><device>Mixer</device><chan>-2</chan><name>strips/slot3:param26</name><flags>0</flags></value>
+</entry>
+</bank>
+</remotedescription>
