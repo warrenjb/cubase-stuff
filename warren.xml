@@ -52,40 +52,6 @@
 <entry ctrl="Rewind">
 <value><device>Transport</device><chan>-1</chan><tag>4018</tag><flags>256</flags></value>
 </entry>
-<entry ctrl="Time">
-</entry>
-<entry ctrl="Paused">
-</entry>
-<entry ctrl="Playing">
-</entry>
-<entry ctrl="Stopped">
-</entry>
-<entry ctrl="Strip">
-</entry>
-<entry ctrl="Gate">
-</entry>
-<entry ctrl="Comp">
-</entry>
-<entry ctrl="EQ">
-</entry>
-<entry ctrl="Env">
-</entry>
-<entry ctrl="Sat">
-</entry>
-<entry ctrl="Lim">
-</entry>
-<entry ctrl="Stereo/Mono">
-</entry>
-<entry ctrl="Instrument">
-</entry>
-<entry ctrl="Eq1">
-</entry>
-<entry ctrl="Eq2">
-</entry>
-<entry ctrl="Eq3">
-</entry>
-<entry ctrl="Eq4">
-</entry>
 </bank>
 <bank name="ftprod">
 <entry ctrl="Stop">
@@ -140,7 +106,6 @@
 <value><device>Transport</device><chan>-1</chan><tag>4115</tag><flags>0</flags></value>
 </entry>
 <entry ctrl="Time">
-<value><device>Transport</device><chan>-1</chan><tag>4023</tag><flags>0</flags></value>
 </entry>
 <entry ctrl="Paused">
 <value><device>MMC Master</device><chan>-1</chan><tag>4098</tag><flags>0</flags></value>
@@ -154,20 +119,8 @@
 <entry ctrl="Strip">
 <command><category>Edit</category><action>Edit Channel Settings</action><flags>1</flags></command>
 </entry>
-<entry ctrl="Gate">
-</entry>
-<entry ctrl="Comp">
-</entry>
 <entry ctrl="EQ">
 <value><device>Mixer</device><chan>-2</chan><name>strips/slot3:param0</name><flags>0</flags></value>
-</entry>
-<entry ctrl="Env">
-</entry>
-<entry ctrl="Sat">
-</entry>
-<entry ctrl="Lim">
-</entry>
-<entry ctrl="Stereo/Mono">
 </entry>
 <entry ctrl="Instrument">
 <command><category>Edit</category><action>Edit VST Instrument</action><flags>1</flags></command>
